@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#fff"
+tools:context=".fragment.FragmentTwo">
+
+<ImageView
+    android:id="@+id/slide_tiga"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_assign"
+    />
+
+<TextView
+    android:id="@+id/welcome_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/slide_tiga"
+    android:text="Task and Assign"
+    android:fontFamily="@font/montserrat_semi_bold"
+    android:textSize="24sp"
+    android:textColor="#313131"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:textColor="#313131"
+    app:layout_constraintTop_toBottomOf="@+id/welcome_text"
+    android:text="Task and Assign them to colleagues"
+    android:fontFamily="@font/montserrat_light"
+    />
+
+<ImageView
+    android:id="@+id/background_tiga"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="fitXY"
+    android:src="@drawable/bg_purple"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    />
+
+<Button
+    android:id="@+id/btn_getS_F2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toTopOf="@+id/btn_login_f2"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginLeft="42dp"
+    android:layout_marginRight="42dp"
+    android:text="Get Started"
+    android:background="@drawable/button_white"
+    android:layout_marginBottom="32dp"
+    android:textSize="18sp"
+    android:fontFamily="@font/montserrat_light"
+    />
+
+<TextView
+    android:id="@+id/btn_login_f2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Log In"
+    android:textColor="#FFFFFF"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:textSize="18sp"
+    android:fontFamily="@font/montserrat_light"
+    android:layout_marginBottom="72dp"
+    />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

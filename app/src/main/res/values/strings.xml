@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DtsChapter03-starter</string>
+    <string name="logo_text">logo_text</string>
+    <string name="sign_in_to_continue">sign in to continue</string>
+    <string name="enter_your_password">enter your password</string>
+    <string name="forgot_password">forgot password ?</string>
+    <string name="get_started">get started</string>
+    <string name="log_in">log in</string>
+    <string name="reset_code">reset code</string>
+    <string name="enter_your_reset_code">enter your reset code</string>
+    <string name="new_password">new password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="change_password">change password</string>
+    <string name="username">username</string>
+    <string name="send_request">send request</string>
+    <string name="logo_text2">DTS Kominfo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

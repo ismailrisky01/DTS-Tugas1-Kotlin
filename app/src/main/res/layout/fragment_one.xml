@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#ffff"
+tools:context=".fragment.FragmentOne">
+
+<ImageView
+    android:id="@+id/calendar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_eventlist"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginTop="30dp"
+    />
+<TextView
+    android:id="@+id/welcome_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="24sp"
+    android:textColor="#313131"
+    android:text="Welcome To DTS VSGA"
+    app:layout_constraintTop_toBottomOf="@id/calendar"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:fontFamily="@font/montserrat_semi_bold"
+    />
+<TextView
+    android:id="@+id/sub_welcome"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#313131"
+    android:text="What is going to happen tomorrow ?"
+    app:layout_constraintTop_toBottomOf="@+id/welcome_text"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:fontFamily="@font/montserrat_light"
+    />
+<ImageView
+    android:id="@+id/background_satu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="fitXY"
+    android:src="@drawable/bg_red"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+<TextView
+    android:id="@+id/btn_login_f1"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginBottom="72dp"
+    android:textColor="#FFFFFF"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:textSize="18sp"
+    android:fontFamily="@font/montserrat_light"
+    />
+
+<Button
+    android:id="@+id/btn_getS_F1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="48dp"
+    android:layout_marginTop="68dp"
+    android:layout_marginRight="48dp"
+    android:fontFamily="@font/montserrat_light"
+    android:text="GET STARTED"
+    android:background="@drawable/button_white"
+    android:textSize="18sp"
+    app:layout_constraintBottom_toTopOf="@id/btn_login_f1"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/background_satu" />
+</androidx.constraintlayout.widget.ConstraintLayout>
